@@ -1,5 +1,9 @@
 # TP1 GODOT : Faire un personnage en 2D qui se déplace sur une map avec des obstacles
 
+## Auteurs
+- [Tom DUNET](https://github.com/Oridoshi)
+- [Axel BUREAUX](https://github.com/axelbrx)
+
 ## Objectif
 L'objectif de ce TP est de créer un personnage en 2D qui se déplace sur une map avec des obstacles. Le personnage doit être capable de se déplacer de manière fluide et de s'arrêter lorsqu'il rencontre un obstacle.
 
