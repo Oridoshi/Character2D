@@ -1,0 +1,54 @@
+[gd_scene load_steps=9 format=3 uid="uid://blbpytn5qxhii"]
+
+[ext_resource type="Script" path="res://Script/tree.gd" id="1_3ne7f"]
+[ext_resource type="Texture2D" uid="uid://246er6i07cpe" path="res://Tiny Swords (Update 010)/Resources/Trees/Tree.png" id="1_rs6mr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wpi2f"]
+radius = 16.1245
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k8o3j"]
+atlas = ExtResource("1_rs6mr")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e8h08"]
+atlas = ExtResource("1_rs6mr")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8v8f"]
+atlas = ExtResource("1_rs6mr")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0njf3"]
+atlas = ExtResource("1_rs6mr")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7pme5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k8o3j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e8h08")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u8v8f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0njf3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+script = ExtResource("1_3ne7f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_wpi2f")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, -69)
+sprite_frames = SubResource("SpriteFrames_7pme5")
+frame_progress = 0.723525

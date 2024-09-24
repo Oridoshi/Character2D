@@ -1,0 +1,7 @@
+res://Game.tscn
+res://Tile/TileSet.tres
+res://Tile/DecoSet.tres
+res://Character/Player.tscn
+res://Object/Tree.tscn
+res://Object/Castle.tscn
+res://Object/Tower.tscn
