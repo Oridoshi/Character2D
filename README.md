@@ -35,5 +35,5 @@ Pour ce TP, ont a utilisé les sprites suivants :
 ![Divers_17](./Tiny%20Swords%20(Update%20010)/Deco/17.png) 
 ![Divers_18](./Tiny%20Swords%20(Update%20010)/Deco/18.png) 
 ![Divers_19](./Tiny%20Swords%20(Update%20010)/Resources/Gold%20Mine/GoldMine_Active.png)
-![Divers_20](./Tiny%20Swords%20(Update%20010)\Factions\Knights\Buildings\Castle\Castle_Blue.png)
-![Divers_21](./Tiny%20Swords%20(Update%20010)\Factions\Knights\Buildings\Tower\Tower_Blue.png)
+![Divers_20](./Tiny%20Swords%20(Update%20010)/Factions/Knights/Buildings/Castle/Castle_Blue.png)
+![Divers_21](./Tiny%20Swords%20(Update%20010)/Factions/Knights/Buildings/Tower/Tower_Blue.png)
